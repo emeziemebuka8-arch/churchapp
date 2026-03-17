@@ -17,7 +17,7 @@ export default function Home() {
         {/* Background Image Setup */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <Image
-            src="/hero-bg.png"
+            src="/church.jpeg"
             alt="Event Background"
             fill
             className="object-cover object-center"

@@ -16,10 +16,11 @@ export function Navbar({ onRegisterClick }: { onRegisterClick?: () => void }) {
       <div className="flex items-center gap-2">
         {/* Logo SVG */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 bg-blue-600 rotate-45 flex items-center justify-center rounded-sm overflow-hidden group-hover:bg-blue-700 transition-colors">
-            <div className="w-full h-1 bg-white -rotate-45 relative top-[1px]"></div>
-          </div>
-          <span className="font-bold text-xl text-slate-900 tracking-tight ml-1">Grace Leadership</span>
+          <img
+            src="/logo.png"
+            alt="Summit Logo"
+            className="w-28 h-12 transition-transform group-hover:rotate-6"
+          />
         </Link>
       </div>
 

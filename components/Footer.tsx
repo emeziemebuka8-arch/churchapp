@@ -7,10 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Logo and Branding */}
         <div className="flex items-center gap-3">
-          <div className="w-6 h-6 bg-blue-600 rotate-45 flex items-center justify-center rounded-sm overflow-hidden">
-            <div className="w-full h-[2px] bg-white -rotate-45 relative top-[0.5px]"></div>
-          </div>
-          <span className="font-bold text-lg text-white tracking-tight">Grace Leadership</span>
+          <img src="/logo.jpeg" alt="Summit Logo" className="w-24 h-auto" />
         </div>
 
         {/* Links */}

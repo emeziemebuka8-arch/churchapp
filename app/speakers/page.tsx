@@ -11,16 +11,16 @@ const speakers = [
     image: "/speaker-1.png",
   },
   {
-    name: "Sarah Jenkins",
-    role: "COO, Kingdom Initiatives",
+    name: "Pastor fortune Obasi",
+    role: "HOST",
     bio: "An expert in church administration and financial stewardship, Sarah helps organizations align resources with their mission.",
-    image: "/speaker-2.png",
+    image: "/chief1.jpeg",
   },
   {
-    name: "Marcus Thompson",
-    role: "Director of Digital Outreach",
+    name: "Pastor Gbenga Ajayi",
+    role: "FACILITATOR",
     bio: "Marcus focuses on leveraging modern technology and social media to foster deep, authentic digital discipleship.",
-    image: "/speaker-3.png",
+    image: "/chieff.jpeg",
   },
 ];
 
