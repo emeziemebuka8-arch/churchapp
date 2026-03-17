@@ -5,16 +5,16 @@ import { Footer } from "@/components/Footer";
 const speakers = [
   // ... (Speakers Data) ...
   {
-    name: "Dr. Samuel Roberts",
-    role: "Lead Pastor, Grace Fellowship",
-    bio: "With over 25 years of ministry experience, Dr. Roberts specializes in visionary leadership and sustainable church growth.",
-    image: "/speaker-1.png",
+    name: "Pastor Fortune Obasi",
+    role: "HOST",
+    bio: "All rights reserved achievers factory international. We are a global organization dedicated to empowering individuals and communities through innovative solutions and impactful initiatives.",
+    image: "/chief1.jpeg",
   },
   {
-    name: "Pastor fortune Obasi",
-    role: "HOST",
-    bio: "An expert in church administration and financial stewardship, Sarah helps organizations align resources with their mission.",
-    image: "/chief1.jpeg",
+     name: "Pastor Gbenga Ajayi",
+    role: "FACILITATOR",
+    bio: "President -Bulwark of Mercy Ministry With over 26 yrs in ministry. With a passion for raising  passionate ,accountable, and faithful stewards.",
+    image: "/chieff.jpeg",
   },
   {
     name: "Pastor Gbenga Ajayi",
