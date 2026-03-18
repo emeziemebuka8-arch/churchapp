@@ -17,7 +17,7 @@ export default function Home() {
         {/* Background Image Setup */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <Image
-            src="/church.jpeg"
+            src="/background.jpeg"
             alt="Event Background"
             fill
             className="object-cover object-center"
@@ -72,7 +72,7 @@ export default function Home() {
                 <span className="h-px bg-slate-300 w-12"></span>
               </p>
 
-              <CountdownTimer targetDate="2026-04-01T00:00:00" />
+              <CountdownTimer targetDate="2026-04-07T00:00:00" />
             </div>
           </main>
         </div>

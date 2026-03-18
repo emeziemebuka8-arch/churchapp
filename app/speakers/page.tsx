@@ -7,11 +7,11 @@ const speakers = [
   {
     name: "Pastor Fortune Obasi",
     role: "HOST",
-    bio: "All rights reserved achievers factory international. We are a global organization dedicated to empowering individuals and communities through innovative solutions and impactful initiatives.",
+    bio: "Fortune Nwabueze Obasi is a visionary leader, administrator, and transformational mentor, serving as the President of Achievers Factory International. With a strong passion for excellence and human capacity development, he has consistently driven initiatives that empower individuals and organizations to achieve purposeful growth and outstanding results.",
     image: "/chief1.jpeg",
   },
   {
-     name: "Pastor Gbenga Ajayi",
+    name: "Pastor Gbenga Ajayi",
     role: "FACILITATOR",
     bio: "President -Bulwark of Mercy Ministry With over 26 yrs in ministry. With a passion for raising  passionate ,accountable, and faithful stewards.",
     image: "/chieff.jpeg",
@@ -46,8 +46,8 @@ export default function SpeakersPage() {
         {/* Speakers Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {speakers.map((speaker, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 flex flex-col h-full transition-all hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-900/5"
             >
               {/* Profile Image */}
