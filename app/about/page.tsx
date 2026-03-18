@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans bg-slate-50 text-slate-900">
       <Navbar />
-      
+
       <main className="flex-1 max-w-7xl mx-auto px-6 py-12 md:py-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-24 w-full">
         {/* ... (About Content) ... */}
         <div className="flex-1 w-full text-left space-y-8">
@@ -68,11 +68,11 @@ export default function AboutPage() {
         {/* Right Column - Illustration */}
         <div className="flex-1 w-full flex justify-center lg:justify-end">
           <div className="relative w-full max-w-xl aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/10 border border-white/60">
-            <Image 
-              src="/leader.jpeg" 
-              alt="Professionals Collaborating" 
-              fill 
-              className="object-fill"
+            <Image
+              src="/leader.jpeg"
+              alt="Professionals Collaborating"
+              fill
+              className="object-contain"
               priority
             />
           </div>
