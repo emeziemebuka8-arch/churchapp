@@ -16,10 +16,10 @@ export default function AboutPage() {
               About the Program
             </h2>
             <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-              Excellence in Ministry Starts with Professional Growth
+              THE BUILDERS HANDS
             </h1>
             <p className="text-slate-500 text-lg leading-relaxed max-w-xl font-medium">
-              The Grace Leadership Training Program is a multi-disciplinary approach to ministry. We believe that spiritual depth must be matched with organizational excellence to truly impact communities in the 21st century.
+              The Achievers Leadership Retreat is meant to transform willing hands into effective, disciplined, and spiritually grounded vessels for impactful service.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-slate-900 font-bold text-lg mb-1">Our Purpose</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">
-                  To bridge the gap between biblical principles and effective organizational management for local churches.
+                  Rekindling Passion and Commitment. Reigniting  the fire for service, reminding leaders of their calling and responsibility.
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-slate-900 font-bold text-lg mb-1">Key Topics</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">
-                  Strategic planning, healthy team dynamics, financial stewardship, and digital community engagement.
+                  Strategic planning, ministerial ethics, spiritual authority and commitment
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-slate-900 font-bold text-lg mb-1">Target Audience</h3>
                 <p className="text-slate-500 text-sm leading-relaxed font-medium">
-                  Pastors, departmental leads, board members, and those transitioning into leadership roles.
+                  Pastors, departmental leads, general workforce and those transitioning into leadership roles
                 </p>
               </div>
             </div>

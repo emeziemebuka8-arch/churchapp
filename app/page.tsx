@@ -37,13 +37,13 @@ export default function Home() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-blue-100/80 backdrop-blur-sm text-blue-700 font-semibold text-xs py-1.5 px-4 rounded-full mb-8 tracking-wider uppercase border border-blue-200 shadow-sm">
               <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-              Annual Leadership Summit 2026
+              Quarter Leadership Summit 2026
             </div>
 
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-4xl mb-6">
-              Empowering Faith Leaders to <br className="hidden md:block" />
-              <span className="text-blue-600">Inspire and Grow</span>
+              Achievers Leadership Retreat <br className="hidden md:block" />
+              <span className="text-blue-600">The builders Hands</span>
             </h1>
 
             {/* Subtitle */}
