@@ -43,6 +43,7 @@ export default function Home() {
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-4xl mb-6">
               Achievers Leadership Retreat <br className="hidden md:block" />
+              <br className="block md:hidden mt-3" />
               <span className="text-blue-600">The builders Hands</span>
             </h1>
 
