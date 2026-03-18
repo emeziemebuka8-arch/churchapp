@@ -69,10 +69,10 @@ export default function AboutPage() {
         <div className="flex-1 w-full flex justify-center lg:justify-end">
           <div className="relative w-full max-w-xl aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/10 border border-white/60">
             <Image 
-              src="/about-illustration.png" 
+              src="/leader.jpeg" 
               alt="Professionals Collaborating" 
               fill 
-              className="object-cover"
+              className="object-fill"
               priority
             />
           </div>

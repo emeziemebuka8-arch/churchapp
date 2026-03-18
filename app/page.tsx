@@ -59,9 +59,9 @@ export default function Home() {
               >
                 Register Today
               </button>
-              <Link href="/curriculum" className="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-900 text-lg font-bold py-4 px-8 rounded-lg shadow-xl shadow-black/5 transition-all hover:scale-105 border border-slate-100">
+              {/* <Link href="/curriculum" className="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-900 text-lg font-bold py-4 px-8 rounded-lg shadow-xl shadow-black/5 transition-all hover:scale-105 border border-slate-100">
                 View Curriculum
-              </Link>
+              </Link> */}
             </div>
 
             {/* Countdown timer */}
