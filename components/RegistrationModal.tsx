@@ -133,7 +133,7 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
                 </div>
                 <input
                   type="text"
-                  placeholder="Address"
+                  placeholder="House Address"
                   className="w-full bg-slate-50 border-0 rounded-xl py-4 pl-12 pr-4 text-slate-900 font-medium focus:ring-2 focus:ring-blue-600 transition-all outline-none"
                 />
               </div>
