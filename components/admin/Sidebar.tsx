@@ -34,7 +34,7 @@ export function Sidebar({ className, onClose }: SidebarProps) {
 
   return (
     <div className={cn(
-      "flex h-screen w-72 flex-col border-r border-slate-100 bg-white",
+      "flex h-screen w-72 flex-col border-r border-slate-100 bg-white font-sans",
       className
     )}>
       {/* Logo Section */}

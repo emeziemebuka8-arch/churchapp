@@ -5,7 +5,7 @@ import { ParticipantsTable } from "@/components/admin/ParticipantsTable";
 
 export default function DashboardPage() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 font-sans">
       {/* Header Section */}
       <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex flex-col gap-2">

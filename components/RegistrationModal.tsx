@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
-import { X, User, Mail, Phone, Building2, Upload } from "lucide-react";
+import React, { useState } from "react";
+import { X, User, Mail, Phone, Building2, Upload, Loader2 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 interface RegistrationModalProps {
   isOpen: boolean;
@@ -9,15 +10,36 @@ interface RegistrationModalProps {
 }
 
 export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
+  const router = useRouter();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   if (!isOpen) return null;
 
+  const handleRegister = async () => {
+    setIsSubmitting(true);
+    // Simulate API call
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+    setIsSubmitting(false);
+    onClose();
+    router.push("/registration-success");
+  };
+
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 py-12 md:p-8 bg-slate-900/40 backdrop-blur-sm animate-in fade-in duration-300">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 py-12 md:p-8 bg-slate-900/40 backdrop-blur-sm animate-in fade-in duration-300 font-sans">
       {/* Registration Card */}
       <div
         className="bg-white w-full max-w-2xl rounded-lg overflow-hidden shadow-2xl relative animate-in zoom-in duration-300"
         onClick={(e) => e.stopPropagation()}
       >
+        {isSubmitting && (
+          <div className="absolute inset-0 z-[110] bg-white/80 backdrop-blur-sm flex flex-col items-center justify-center gap-4">
+            <Loader2 className="h-12 w-12 text-blue-600 animate-spin" />
+            <div className="flex flex-col items-center gap-1">
+              <h3 className="text-xl font-black text-slate-900 tracking-tight">Processing Registration</h3>
+              <p className="text-slate-500 font-medium text-sm">Please wait a moment while we set things up...</p>
+            </div>
+          </div>
+        )}
 
         {/* Header */}
         <div className="bg-blue-600 p-8 pt-10 pb-12 text-white relative">
@@ -104,14 +126,14 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
 
             {/* Church Name */}
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 block uppercase tracking-wider">Church Name</label>
+              <label className="text-sm font-bold text-slate-700 block uppercase tracking-wider">House Address</label>
               <div className="relative group">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400 group-focus-within:text-blue-600 transition-colors">
                   <Building2 size={18} />
                 </div>
                 <input
                   type="text"
-                  placeholder="Grace Community Church"
+                  placeholder="Address"
                   className="w-full bg-slate-50 border-0 rounded-xl py-4 pl-12 pr-4 text-slate-900 font-medium focus:ring-2 focus:ring-blue-600 transition-all outline-none"
                 />
               </div>
@@ -139,9 +161,11 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
               Cancel
             </button>
             <button
-              className="flex-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-xl shadow-xl shadow-blue-600/30 transition-all active:scale-[0.98] flex items-center justify-center gap-2"
+              onClick={handleRegister}
+              disabled={isSubmitting}
+              className="flex-3 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold py-4 px-12 rounded-xl shadow-xl shadow-blue-600/30 transition-all active:scale-[0.98] flex items-center justify-center gap-2"
             >
-              Register Now <span className="text-lg">→</span>
+              {isSubmitting ? "Registering..." : "Register Now"} <span className="text-lg">→</span>
             </button>
           </div>
 

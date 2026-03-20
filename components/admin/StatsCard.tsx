@@ -11,7 +11,7 @@ interface StatsCardProps {
 
 export function StatsCard({ label, value, trend, trendType = "neutral", subtitle }: StatsCardProps) {
   return (
-    <div className="flex flex-col gap-4 md:gap-6 rounded-2xl border border-slate-200 bg-white p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+    <div className="flex flex-col gap-4 md:gap-6 rounded-2xl border border-slate-200 bg-white p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow duration-300 font-sans">
       <div className="text-[10px] font-black tracking-[0.1em] text-slate-400 uppercase">
         {label}
       </div>

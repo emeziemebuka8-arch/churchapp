@@ -69,7 +69,7 @@ const participants: Participant[] = [
 
 export function ParticipantsTable() {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+    <div className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden font-sans">
       <div className="overflow-x-auto">
         <table className="w-full text-left">
           <thead className="bg-slate-50/50 border-b border-slate-200">
