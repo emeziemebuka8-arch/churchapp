@@ -29,7 +29,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Stats Cards Section */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <StatsCard 
           label="Total Participants" 
           value="1,284" 
