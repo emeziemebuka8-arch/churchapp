@@ -31,7 +31,7 @@ export default function DashboardPage() {
       {/* Stats Cards Section */}
       <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <StatsCard 
-          label="Total Participants" 
+          label="Total Participant's" 
           value="1,284" 
           trend="~12%" 
           trendType="positive" 
